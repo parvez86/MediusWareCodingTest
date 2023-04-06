@@ -1,6 +1,6 @@
 from django.forms import forms, ModelForm, CharField, TextInput, Textarea, BooleanField, CheckboxInput
 
-from product.models import Variant
+from .models import Variant
 
 
 class VariantForm(ModelForm):
